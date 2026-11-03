@@ -1,7 +1,7 @@
 # manifesto de atualizacao do Fantom OpenCodeEdition
-# a versao vale pelo NOME do exe: FantomOpenCodeEdition_1.0.3.exe -> 1.0.3
-# atualização de erros.
-version=1.0.3
-exe=https://raw.githubusercontent.com/teteuzao/fantom-updates/refs/heads/main/FantomOpenCodeEdition_1.0.3.exe
-notes=Correção de erros
-sha256=e11856fa1d2d4a1996ca10492d30ff42dd77f8380b67b51666717b167aa943e7
+# a versao vale pelo NOME do exe: FantomOpenCodeEdition_1.0.4.exe -> 1.0.4
+# enviada pelo update_fantom.bat
+version=1.0.4
+exe=https://raw.githubusercontent.com/teteuzao/fantom-updates/refs/heads/main/FantomOpenCodeEdition_1.0.4.exe
+notes=1.0.4: fila de mensagens em caixas editaveis (ate 3). forcar/cancelar por caixa. correcao de piscadas e envio duplo no forcar. logo na tela de atualizacao. acentos ok. layout tela cheia arrumado. utf-8 do manifesto ok.
+sha256=394da84c02affb186823599c86a42ebf17861064993c2863400ff4d2d90fdd23
