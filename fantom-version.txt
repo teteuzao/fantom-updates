@@ -1,8 +1,7 @@
 # manifesto de atualizacao do Fantom OpenCodeEdition
-# a versao vale pelo NOME do exe: FantomOpenCodeEdition_1.0.1.exe -> 1.0.1
-# se o exe estiver na mesma pasta deste arquivo, basta subir o novo exe:
-# o app lista a pasta, acha o .exe com a maior versao no nome e atualiza.
-version=1.0.1
-exe=https://raw.githubusercontent.com/teteuzao/fantom-updates/refs/heads/main/FantomOpenCodeEdition_1.0.1.exe
-notes=versao 1.0.1 - WARP obrigatorio (instala no boot com UAC, refaz registro e valida o proxy), instalacao automatica do opencode sem perguntar, conserta exe quebrado/bloqueado, download com proxy e PS TLS12, unblock da marca da internet, server.log com cabecalho de diagnostico.
-sha256=cb5c75ecfeadbf4080ae4ab06aa701e7a8aea4122fee47c753411acb8deb4a50
+# a versao vale pelo NOME do exe: FantomOpenCodeEdition_1.0.2.exe -> 1.0.2
+# enviada pelo update_fantom.bat
+version=1.0.2
+exe=https://raw.githubusercontent.com/teteuzao/fantom-updates/refs/heads/main/FantomOpenCodeEdition_1.0.2.exe
+notes=versao 1.0.2 - atualizacao via update_fantom.bat
+sha256=1ee35d1453f1406fc047a8f409d766fc075a9b7054a255aae1acd3df5bd043cd
