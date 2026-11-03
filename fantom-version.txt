@@ -2,6 +2,6 @@
 # a versao vale pelo NOME do exe: FantomOpenCodeEdition_1.0.1.exe -> 1.0.1
 # se o exe estiver na mesma pasta deste arquivo, basta subir o novo exe:
 # o app lista a pasta, acha o .exe com a maior versao no nome e atualiza.
-version=1.0.1
-exe=https://raw.githubusercontent.com/teteuzao/fantom-updates/refs/heads/main/FantomOpenCodeEdition_1.0.1.exe
-notes=versao 1.0.1 - compactacao automatica desligada e card de compaction neutro.
+version=1.0.0
+exe=https://raw.githubusercontent.com/teteuzao/fantom-updates/refs/heads/main/FantomOpenCodeEdition_1.0.0.exe
+notes=versao 1.0.0 - compactacao automatica desligada, card de compaction neutro e updater com rename.
