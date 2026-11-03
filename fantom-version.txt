@@ -1,7 +1,7 @@
 # manifesto de atualizacao do Fantom OpenCodeEdition
-# a versao vale pelo NOME do exe: FantomOpenCodeEdition_1.0.2.exe -> 1.0.2
+# a versao vale pelo NOME do exe: FantomOpenCodeEdition_1.0.3.exe -> 1.0.3
 # enviada pelo update_fantom.bat
-version=1.0.2
-exe=https://raw.githubusercontent.com/teteuzao/fantom-updates/refs/heads/main/FantomOpenCodeEdition_1.0.2.exe
-notes=versao 1.0.2 - atualizacao via update_fantom.bat
-sha256=1ee35d1453f1406fc047a8f409d766fc075a9b7054a255aae1acd3df5bd043cd
+version=1.0.3
+exe=https://raw.githubusercontent.com/teteuzao/fantom-updates/refs/heads/main/FantomOpenCodeEdition_1.0.3.exe
+notes=versao 1.0.3 - atualizacao via update_fantom.bat
+sha256=e11856fa1d2d4a1996ca10492d30ff42dd77f8380b67b51666717b167aa943e7
