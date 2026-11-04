@@ -1,7 +1,7 @@
 # manifesto de atualizacao do Fantom OpenCodeEdition
-# a versao vale pelo NOME do exe: FantomOpenCodeEdition_1.0.4.exe -> 1.0.4
+# a versao vale pelo NOME do exe: FantomOpenCodeEdition_1.0.5.exe -> 1.0.5
 # enviada pelo update_fantom.bat
-version=1.0.4
-exe=https://raw.githubusercontent.com/teteuzao/fantom-updates/refs/heads/main/FantomOpenCodeEdition_1.0.4.exe
-notes=1.0.4: layout de mensagem livre — resposta do assistente direto no fundo, sua mensagem como bolinha a direita. anti-pisca em paste, anexo e fim de resposta.
-sha256=814d396a62b9c9c069106f94c82e7b40f3a8d1925e2fe88f7219caa0b71e941e
+version=1.0.5
+exe=https://raw.githubusercontent.com/teteuzao/fantom-updates/refs/heads/main/FantomOpenCodeEdition_1.0.5.exe
+notes=1.0.5: bolinha azul do ceu arredondada (pildula), anexo na direita, linhas com negrito/codigo deixa de cortar, [rat] e preambulos fora do chat
+sha256=0d0cdd6da19d7e2be4b597b39e39717e2cd33761db3597be10ac78a6784d0b8f
