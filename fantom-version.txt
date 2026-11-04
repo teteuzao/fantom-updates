@@ -4,4 +4,4 @@
 version=1.0.5
 exe=https://raw.githubusercontent.com/teteuzao/fantom-updates/refs/heads/main/FantomOpenCodeEdition_1.0.5.exe
 notes=1.0.5: bolinha azul do ceu arredondada (pildula), anexo na direita, linhas com negrito/codigo deixa de cortar, [rat] e preambulos fora do chat
-sha256=0d0cdd6da19d7e2be4b597b39e39717e2cd33761db3597be10ac78a6784d0b8f
+sha256=f5a1dd5f5d313d63f5bc6036e2b7efeab2b57d31d5d1cc470d275f01b44f6f8d
