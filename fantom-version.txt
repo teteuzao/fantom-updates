@@ -1,7 +1,7 @@
 # manifesto de atualizacao do Fantom OpenCodeEdition
-# a versao vale pelo NOME do exe: FantomOpenCodeEdition_1.0.5.exe -> 1.0.5
+# a versao vale pelo NOME do exe: FantomOpenCodeEdition_1.0.6.exe -> 1.0.6
 # enviada pelo update_fantom.bat
-version=1.0.5
-exe=https://raw.githubusercontent.com/teteuzao/fantom-updates/refs/heads/main/FantomOpenCodeEdition_1.0.5.exe
-notes=1.0.5: atualizado. corrigindo bugs.
-sha256=f5a1dd5f5d313d63f5bc6036e2b7efeab2b57d31d5d1cc470d275f01b44f6f8d
+version=1.0.6
+exe=https://raw.githubusercontent.com/teteuzao/fantom-updates/refs/heads/main/FantomOpenCodeEdition_1.0.6.exe
+notes=1.0.6: reenvio automatico quando a API falha (resposta vazia/interrompida ou conexao cai — o mesmo prompt volta ate 3 vezes, pausa crescente 2/4/6s; cota e contexto estourado continuam nas rotas proprias). resposta vazia SEM evento de erro tambem reenvia (o fim de resposta com chat em branco dispara o envio de novo). chip de contexto vazio sai do lugar de verdade — acabou a area invisivel ao lado da pasta da cabecalho que engolia o clique do mouse (quando o contador tem valor, a pilula azul volta no assento). icones do cabecalho desenhados pelo proprio app: tres pontinhos e a pasta (aba cheia + corpo arredondado), sem depender do fallback de fonte do Windows. botoes do cabecalho reorganizados: par no canto direito e chip de contexto por cima a esquerda. troca-exe.bat novo no disco: encerra, guarda o exe velho como .old, instala e reabre, gritando em cada passo se algo falhar — sem mais troca silenciosa.
+sha256=12936995ab06211f99f173933e1552490f25466b5645ba705ec20087b1b39e73
