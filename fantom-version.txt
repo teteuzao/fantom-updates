@@ -1,7 +1,7 @@
 # manifesto de atualizacao do Fantom OpenCodeEdition
-# a versao vale pelo NOME do exe: FantomOpenCodeEdition_1.0.8.exe -> 1.0.8
+# a versao vale pelo NOME do exe: FantomOpenCodeEdition_1.1.0.exe -> 1.1.0
 # enviada pelo update_fantom.bat
-version=1.0.8
-exe=https://raw.githubusercontent.com/teteuzao/fantom-updates/refs/heads/main/FantomOpenCodeEdition_1.0.8.exe
-notes=1.0.8: trocar de conversa nao reinicia mais os outros servidores - cada pasta mantem o proprio opencode vivo e trabalhando, com um stream de eventos por servidor (permissao e fim de turno de conversas em segundo plano continuam chegando). servidores quentes por pasta sem teto de eviccao: abrir conversa de outra pasta sobe o servidor dela sem derrubar nenhum outro. titulos de conversa em idioma errado (vietnamita, cirilico, CJK) sao reescritos em pt-BR com o texto da primeira mensagem. catalogo de modelos de IA e baixado em todo boot e gravado no cache do opencode antes do servidor subir: o seletor de modelos nasce atualizado. fonte do catalogo virou models.opencode.ai com models.dev de reserva.
-sha256=98861259c17ca644efa07cb8a288f6038d4e35367f3e5d9ef3a8060cfc850128
+version=1.1.0
+exe=https://raw.githubusercontent.com/teteuzao/fantom-updates/refs/heads/main/FantomOpenCodeEdition_1.1.0.exe
+notes=1.1.0: contexto estourado nao entra mais em loop - o reenvio automatico do mesmo prompt foi bloqueado em erro de contexto, a conversa e compactada uma vez e o texto volta ao campo para reenviar. trocar de conversa nao mata a outra: cada sessao mantem a propria fila, o proprio ultimo envio e o proprio estado de erro; um reenvio antigo nao aborta mais um turno novo (geracao por envio manual). sessao em segundo plano que estoura contexto e compactada e avisada ao abrir. falha ao carregar o historico nao deixa mais a tela presa em "carregando": mostra o erro e permite tentar de novo. o resto do 1.1.0 (criacao de conversa pela API V2, sessoes independentes, reset intacto) continua.
+sha256=73c4a5ac1b7735bf9197f628d0a8918bc5ce064f672826a6e0bb978f7ada087c
