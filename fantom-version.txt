@@ -1,7 +1,7 @@
 # manifesto de atualizacao do Fantom OpenCodeEdition
-# a versao vale pelo NOME do exe: FantomOpenCodeEdition_1.0.7.exe -> 1.0.7
+# a versao vale pelo NOME do exe: FantomOpenCodeEdition_1.0.8.exe -> 1.0.8
 # enviada pelo update_fantom.bat
-version=1.0.7
-exe=https://raw.githubusercontent.com/teteuzao/fantom-updates/refs/heads/main/FantomOpenCodeEdition_1.0.7.exe
-notes=1.0.6: reenvio automatico quando a API falha (resposta vazia/interrompida ou conexao cai — o mesmo prompt volta ate 3 vezes, pausa crescente 2/4/6s; cota e contexto estourado continuam nas rotas proprias). resposta vazia SEM evento de erro tambem reenvia (o fim de resposta com chat em branco dispara o envio de novo). chip de contexto vazio sai do lugar de verdade — acabou a area invisivel ao lado da pasta da cabecalho que engolia o clique do mouse (quando o contador tem valor, a pilula azul volta no assento). icones do cabecalho desenhados pelo proprio app: tres pontinhos e a pasta (aba cheia + corpo arredondado), sem depender do fallback de fonte do Windows. botoes do cabecalho reorganizados: par no canto direito e chip de contexto por cima a esquerda. troca-exe.bat novo no disco: encerra, guarda o exe velho como .old, instala e reabre, gritando em cada passo se algo falhar — sem mais troca silenciosa.
-sha256=efac63f993d84b18e78a42d841afa397707482fa81b114cf18f326916ef31f9f
+version=1.0.8
+exe=https://raw.githubusercontent.com/teteuzao/fantom-updates/refs/heads/main/FantomOpenCodeEdition_1.0.8.exe
+notes=1.0.8: trocar de conversa nao reinicia mais os outros servidores - cada pasta mantem o proprio opencode vivo e trabalhando, com um stream de eventos por servidor (permissao e fim de turno de conversas em segundo plano continuam chegando). servidores quentes por pasta sem teto de eviccao: abrir conversa de outra pasta sobe o servidor dela sem derrubar nenhum outro. titulos de conversa em idioma errado (vietnamita, cirilico, CJK) sao reescritos em pt-BR com o texto da primeira mensagem. catalogo de modelos de IA e baixado em todo boot e gravado no cache do opencode antes do servidor subir: o seletor de modelos nasce atualizado. fonte do catalogo virou models.opencode.ai com models.dev de reserva.
+sha256=98861259c17ca644efa07cb8a288f6038d4e35367f3e5d9ef3a8060cfc850128
