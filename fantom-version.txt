@@ -1,7 +1,6 @@
 # manifesto de atualizacao do Fantom OpenCodeEdition
-# a versao vale pelo NOME do exe: FantomOpenCodeEdition_1.1.2.exe -> 1.1.2
-# enviada pelo update_fantom.bat
-version=1.1.2
-exe=https://raw.githubusercontent.com/teteuzao/fantom-updates/refs/heads/main/FantomOpenCodeEdition_1.1.2.exe
-notes=1.1.0: contexto estourado nao entra mais em loop - o reenvio automatico do mesmo prompt foi bloqueado em erro de contexto, a conversa e compactada uma vez e o texto volta ao campo para reenviar. trocar de conversa nao mata a outra: cada sessao mantem a propria fila, o proprio ultimo envio e o proprio estado de erro; um reenvio antigo nao aborta mais um turno novo (geracao por envio manual). sessao em segundo plano que estoura contexto e compactada e avisada ao abrir. falha ao carregar o historico nao deixa mais a tela presa em "carregando": mostra o erro e permite tentar de novo. o resto do 1.1.0 (criacao de conversa pela API V2, sessoes independentes, reset intacto) continua.
-sha256=d8b852a6127e32e7fe716ab01abc1e7da8e3facbe11a21e4fa3376493800268d
+# a versao vale pelo NOME do exe: FantomOpenCodeEdition_1.1.4.exe -> 1.1.4
+version=1.1.4
+exe=https://raw.githubusercontent.com/teteuzao/fantom-updates/refs/heads/main/FantomOpenCodeEdition_1.1.4.exe
+notes=1.1.4: atualizacao do painel com leve limpeza visual - paleta nova: obsidiana, violeta electrico e menta neon; linha de assinatura Fantom em gradiente violeta -> verde na barra de titulo; sidebar mais larga (262 -> 296); botoes e filtros alargados; estilo do painel recalibrado. sem mudanca de logica: fluxos, chamadas, servidor, rede, configuracoes ou comandos intocados
+sha256=c0faf3a93d27692e060292bd61838bc6fd800ad9e4106e64119dd646a52807ac
