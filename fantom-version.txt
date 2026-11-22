@@ -1,6 +1,6 @@
 # manifesto de atualizacao do Fantom OpenCodeEdition
-# a versao vale pelo NOME do exe: FantomOpenCodeEdition_1.1.4.exe -> 1.1.4
-version=1.1.4
-exe=https://raw.githubusercontent.com/teteuzao/fantom-updates/refs/heads/main/FantomOpenCodeEdition_1.1.4.exe
-notes=1.1.4: atualizacao do painel com leve limpeza visual - paleta nova: obsidiana, violeta electrico e menta neon; linha de assinatura Fantom em gradiente violeta -> verde na barra de titulo; sidebar mais larga (262 -> 296); botoes e filtros alargados; estilo do painel recalibrado. sem mudanca de logica: fluxos, chamadas, servidor, rede, configuracoes ou comandos intocados
-sha256=c0faf3a93d27692e060292bd61838bc6fd800ad9e4106e64119dd646a52807ac
+# a versao vale pelo NOME do exe: FantomOpenCodeEdition_1.1.5.exe -> 1.1.5
+version=1.1.5
+exe=https://raw.githubusercontent.com/teteuzao/fantom-updates/refs/heads/main/FantomOpenCodeEdition_1.1.5.exe
+notes=1.1.5: tela de entrada e tela de atualizacao agora tem barra de titulo com minimizar, maximizar/tela cheia e fechar, com barra escura no tema do app. | builds normal e local protegidos com ConfuserEx (rename, control flow, constants, ref proxy, resources, anti debug/dump/ildasm, anti tamper, harden e compressor). | prototipo local (FantomPrototipo.exe) sem checagem de atualizacao e travado no MachineGuid deste PC. | launcher com reset de cota: fecha o servico, arquiva conversas, limpa o estado, troca o IP pelo WARP e reabre; rotacao automatica quando o log acusa limite.
+sha256=f9e5345020ef292472e8f9519ec5504cec7d96e9a5e3add20ece8fe1ce959f7b
