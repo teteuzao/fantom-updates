@@ -1,6 +1,6 @@
 # manifesto de atualizacao do Fantom OpenCodeEdition
-# a versao vale pelo NOME do exe: FantomOpenCodeEdition_1.1.5.exe -> 1.1.5
-version=1.1.5
-exe=https://raw.githubusercontent.com/teteuzao/fantom-updates/refs/heads/main/FantomOpenCodeEdition_1.1.5.exe
-notes=1.1.5: tela de entrada e tela de atualizacao agora tem barra de titulo com minimizar, maximizar/tela cheia e fechar, com barra escura no tema do app. | builds normal e local protegidos com ConfuserEx (rename, control flow, constants, ref proxy, resources, anti debug/dump/ildasm, anti tamper, harden e compressor). | prototipo local (FantomPrototipo.exe) sem checagem de atualizacao e travado no MachineGuid deste PC. | launcher com reset de cota: fecha o servico, arquiva conversas, limpa o estado, troca o IP pelo WARP e reabre; rotacao automatica quando o log acusa limite.
-sha256=f9e5345020ef292472e8f9519ec5504cec7d96e9a5e3add20ece8fe1ce959f7b
+# a versao vale pelo NOME do exe: FantomOpenCodeEdition_1.1.6.exe -> 1.1.6
+version=1.1.6
+exe=https://raw.githubusercontent.com/teteuzao/fantom-updates/refs/heads/main/FantomOpenCodeEdition_1.1.6.exe
+notes=1.1.6: pool de IPs do WARP com cooldown: guarda o IP, respeita o retry-after do provedor e reutiliza o IP quando o prazo vence. | rotacao automatica tenta ate 4 IPs livres e usa o 5o sorteio como fallback; o ciclo recomeca quando a cota acaba e, se nem o fallback sair, espera 60s. | boot nao troca mais o IP so porque ele e o mesmo da execucao anterior; so troca se estiver em cooldown. | tela do IP e diagnostico mostram o cooldown do pool; menu ganhou "Limpar cooldowns do pool de IPs". | deteccao de cota para o pool e mais estreita: capacity/overloaded/rede nao marcam cooldown. | build normal protegido com ConfuserEx (rename, control flow, constants, ref proxy, resources, anti debug/dump/ildasm, anti tamper, harden e compressor).
+sha256=c15160447faf9509a9e76feb55b4177c1e4d7985204009b9fabe2c231409d19a
