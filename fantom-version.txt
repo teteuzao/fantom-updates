@@ -1,6 +1,6 @@
 # manifesto de atualizacao do Fantom OpenCodeEdition
-# a versao vale pelo NOME do exe: FantomOpenCodeEdition_1.1.8.exe -> 1.1.8
-version=1.1.8
-exe=https://raw.githubusercontent.com/teteuzao/fantom-updates/refs/heads/main/FantomOpenCodeEdition_1.1.8.exe
-notes=1.1.8: verificacao automatica de atualizacao a cada 10 minutos enquanto o programa esta aberto, em silencio. Se houver versao nova, abre uma janela com "Atualizar agora" e "Atualizar depois"; se o usuario adiar ou fechar a janela, ela volta na proxima checagem de 10 minutos. Aceitou: o programa baixa o novo exe, fecha e reabre ja atualizado. | fila: mensagem enviada durante o procedimento entra no intervalo entre acoes e a proxima so sai depois que a IA responder a anterior; a caixa fica visivel embaixo do campo e o texto nao se perde se o envio falhar. | watchdog do servidor: se o processo do opencode morrer (antivirus, crash, porta perdida), o app sobe outro sozinho e retoma a fila. | protecao obrigatoria: se o ConfuserEx falhar ou nao conseguir substituir o exe, o build normal aborta sem atualizar manifesto e changelog.
-sha256=f7b08ab31d308c37e016299425d904538419af961fca38fab53c2656327e720f
+# a versao vale pelo NOME do exe: FantomOpenCodeEdition_1.1.9.exe -> 1.1.9
+version=1.1.9
+exe=https://raw.githubusercontent.com/teteuzao/fantom-updates/refs/heads/main/FantomOpenCodeEdition_1.1.9.exe
+notes=1.1.9: atualizacao agora apaga o exe antigo depois de copiar a versao nova; nao fica mais FantomOpenCodeEdition_x.y.z.exe.old na pasta. O script espera o programa fechar, copia o novo, confere e so entao remove o antigo (com ate 10 tentativas); se nao conseguir apagar, registra no log e segue abrindo a versao nova.
+sha256=784df2f84a49c54e01b18167dffc2f064940de8ae4292c4b17498721946350df
